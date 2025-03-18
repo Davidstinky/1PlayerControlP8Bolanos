@@ -1,9 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-
+public class PlayerControllerX : MonoBehaviour
 {
     public float speed = 3.0f;
     public float rotationSpeed;
@@ -11,7 +10,6 @@ using UnityEngine.UIElements;
     public float horizontalInput;
     public float turnSpeed = 55.0f;
     public float plane;
-
 
     // Start is called before the first frame update
     void Start()
